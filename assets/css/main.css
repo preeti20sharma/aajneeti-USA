@@ -16920,39 +16920,47 @@ button:focus {
 }
 
 .badge-green {
-  background: #1fb6aa;
+  background: #064944;
+}
+
+.first-card-icon {
+  color: #064944;
 }
 
 .badge-purple {
-  background: #b36bff;
+  background: #1e013d;
+}
+
+.second-card-icon {
+  color: #1e013d;
 }
 
 .badge-orange {
-  background: #ff9f43;
+  background: #864202;
+}
+
+.third-card-icon {
+  color: #864202;
 }
 
 /* Buttons */
 .btn-soft-green {
-  background: #1fb6aa;
+  background: #064944;
   color: #fff;
   border-radius: 8px;
 }
 
 .btn-soft-purple {
-  background: #b36bff;
+  background: #1e013d;
   color: #fff;
   border-radius: 8px;
 }
 
 .btn-soft-orange {
-  background: #ff9f43;
+  background: #864202;
   color: #fff;
   border-radius: 8px;
 }
 
-.btn:hover {
-  opacity: 0.9;
-  transform: translateY(-2px);
-}
 
 /* our proven result end */
