@@ -16800,7 +16800,7 @@ button:focus {
   }
 }
 
-/* why us */
+/*---------------- why us-------------- */
 .why-us-section {
   background: #ffffff;
 }
@@ -16849,3 +16849,110 @@ button:focus {
   color: #686666;
   margin-bottom: 0;
 }
+
+/*------------------ why us end----------------- */
+
+/* our proven result start */
+.results-section {
+  background: linear-gradient(135deg,
+      #e6ffff 0%,
+      #f5edff 50%,
+      #fff2e8 100%);
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.result-card {
+  padding: 28px;
+  border-radius: 16px;
+  color: #ffffff;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-green {
+  background-image: linear-gradient(225deg, #a6e9e8, #d8c8e2 50%, #f0bbc5);
+}
+
+.card-purple {
+  background-image: linear-gradient(225deg, #f3ecf7, #ccfffe, 50%, #fce7eb);
+}
+
+.card-orange {
+  background-image: linear-gradient(225deg, #a6e9e8, #d8c8e2 50%, #f0bbc5);
+}
+
+.proven-heading {
+  letter-spacing: -.02em;
+  font-family: Outfit, sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.result-card h5 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.result-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.result-list li {
+  position: relative;
+  padding-left: 0px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.result-list .fa-regular {
+  margin-right: 10px;
+}
+
+/* Badges */
+.badge {
+  padding: 11px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.badge-green {
+  background: #1fb6aa;
+}
+
+.badge-purple {
+  background: #b36bff;
+}
+
+.badge-orange {
+  background: #ff9f43;
+}
+
+/* Buttons */
+.btn-soft-green {
+  background: #1fb6aa;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-soft-purple {
+  background: #b36bff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-soft-orange {
+  background: #ff9f43;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* our proven result end */
