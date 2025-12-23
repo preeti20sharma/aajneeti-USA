@@ -16705,7 +16705,7 @@ button:focus {
 .solution-section-overlay {
   position: absolute;
   inset: 0;
-  background-image: url("/assets/images/avatar/shapes.svg");
+  background-image: url("../images/avatar/shapes.svg");
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
