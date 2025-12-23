@@ -16044,6 +16044,12 @@ button:focus {
   padding: 80px 20px;
 }
 
+@media(max-width:992px) {
+  .hero {
+    min-height: 50vh;
+  }
+}
+
 /* CENTER CONTENT */
 .hero-content {
   margin-top: -40px;
