@@ -825,7 +825,8 @@ input::-moz-placeholder {
 }
 
 .theme-button.style-1 {
-  background: linear-gradient(135deg, #b3891f, #e7ba03, #8f7622, #d3ab0a, #7a5c12);
+  background: linear-gradient(135deg, #b80505, #000000);
+  /* background: linear-gradient(135deg, #b3891f, #e7ba03, #8f7622, #d3ab0a, #7a5c12); */
   color: #FFFFFF;
   z-index: 2;
 }
@@ -10907,7 +10908,8 @@ button:focus {
 
 .services-section-2 .services-wapper {
   position: relative;
-  background-color: var(--extra-color);
+  /* background-color: #fff0;
+  background-image: linear-gradient(225deg, #ccfffe, #f3ecf7 50%, #fce7eb); */
   z-index: 1;
 }
 
@@ -10921,7 +10923,7 @@ button:focus {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
   gap: 25px;
-  background-color: var(--primary-color);
+  background-color: #011838;
   border-radius: var(--border-radius-three);
   margin-bottom: 30px;
   padding: 25px;
@@ -17316,3 +17318,7 @@ button:focus {
 }
 
 /* -------what we value end--------- */
+
+.hero .service-heading {
+  font-size: 57px !important;
+}
