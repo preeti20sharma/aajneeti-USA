@@ -17322,3 +17322,15 @@ button:focus {
 .hero .service-heading {
   font-size: 57px !important;
 }
+
+@media (max-width: 991px) {
+  .hero .service-heading {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .service-heading {
+    font-size: 32px !important;
+  }
+}
