@@ -1986,13 +1986,14 @@ button:focus {
 }
 
 .section-title-white .sub-title {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  color: var(--white-color) !important;
+  /* background-color: rgba(255, 255, 255, 0.1) !important; */
+  /* color: var(--white-color) !important; */
 }
 
+/* 
 .section-title-white h2 {
   color: var(--white-color) !important;
-}
+} */
 
 .section-title .sub-title {
   position: relative;
@@ -14324,7 +14325,7 @@ button:focus {
   display: -moz-flex;
   display: flex;
   gap: 20px;
-  background-color: var(--extra-color);
+  background-color: #ffeaea;
   padding: 25px;
   border-radius: var(--border-radius-three);
 }
@@ -14445,7 +14446,7 @@ button:focus {
   z-index: 1;
   padding: 25px;
   border-radius: var(--border-radius-three);
-  background-color: var(--primary-color);
+  background-color: #ffeaea;
 }
 
 @media (max-width: 1199px) {
@@ -14462,7 +14463,10 @@ button:focus {
 }
 
 .contact-section .contact-form-box .contact-form .form-group label {
-  color: var(--white-color);
+  /* color: var(--white-color); */
+  color: var(--black-color);
+  font-weight: 500;
+
 }
 
 @media (max-width: 575px) {
