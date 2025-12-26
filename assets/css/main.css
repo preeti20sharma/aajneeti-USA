@@ -17159,7 +17159,7 @@ button:focus {
 /* Text */
 .mv-card p {
   color: #555;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   margin-bottom: 30px;
 }
@@ -17290,7 +17290,7 @@ button:focus {
   border: 1px solid #ffdddd;
   height: 100%;
   border-radius: 16px;
-  padding: 30px;
+  padding: 19px;
   transition: all 0.3s ease;
 }
 
@@ -17341,4 +17341,8 @@ button:focus {
 
 .hero-height {
   min-height: 50vh !important;
+}
+
+.about-height {
+  min-height: 80vh !important;
 }
