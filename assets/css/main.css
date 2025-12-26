@@ -489,7 +489,7 @@ input,
   height: 52px;
   padding: 10px 15px;
   outline: none;
-  background-color: var(--extra-color-two);
+  background-color: #830211;
   color: var(--white-color);
   border: 1px solid var(--extra-color-two);
   border-radius: var(--border-radius-one);
@@ -17345,4 +17345,12 @@ button:focus {
 
 .about-height {
   min-height: 80vh !important;
+}
+
+.about-width {
+  max-width: 885px !important;
+}
+
+.about-title {
+  font-size: 3rem !important;
 }
