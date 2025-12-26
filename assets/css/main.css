@@ -17338,3 +17338,7 @@ button:focus {
     font-size: 32px !important;
   }
 }
+
+.hero-height {
+  min-height: 50vh !important;
+}
