@@ -16294,11 +16294,10 @@ button:focus {
   font-weight: 500 !important;
 }
 
-
 /* Top-right pill */
 .card-pill {
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 20px;
   background: #ffffff;
   color: #333;
@@ -16330,8 +16329,6 @@ button:focus {
   color: #232323;
   font-family: "Inter", sans-serif;
 }
-
-
 
 .mt-10 {
   margin-top: 10px;
@@ -16956,14 +16953,32 @@ button:focus {
   border-radius: 8px;
 }
 
+.btn-soft-green:hover {
+  background: #04605a;
+  color: #fff;
+  border-radius: 8px;
+}
+
 .btn-soft-purple {
   background: #1e013d;
   color: #fff;
   border-radius: 8px;
 }
 
+.btn-soft-purple:hover {
+  background: #3a0f6e;
+  color: #fff;
+  border-radius: 8px;
+}
+
 .btn-soft-orange {
   background: #864202;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-soft-orange:hover {
+  background: #a25c07;
   color: #fff;
   border-radius: 8px;
 }
