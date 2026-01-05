@@ -5513,7 +5513,7 @@ button:focus {
   height: 2px;
   border-radius: 1px;
   opacity: 1;
-  background-color: var(--secondary-color);
+  background-color: #011736;
   margin: 3px 0;
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
@@ -5621,7 +5621,7 @@ button:focus {
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   flex-direction: column;
-  color: var(--secondary-color);
+  color: #011736;
 }
 
 .header .header-search a:hover {
@@ -16580,7 +16580,7 @@ button:focus {
   transform: translateX(-50%);
   width: 10px;
   height: 10px;
-  background: #ff0033;
+  background: #b80505;
   border-radius: 50%;
   transition: all 0.3s ease;
 }
@@ -16608,7 +16608,7 @@ button:focus {
 
 /* ACTIVE DOT */
 .process-dot.active {
-  background: #ff0033;
+  background: #b80505;
   box-shadow: 0 0 0 6px rgba(255, 0, 51, 0.25);
 }
 
@@ -16714,7 +16714,7 @@ button:focus {
 }
 
 .solution-section h3 span {
-  color: #e50914;
+  color: #b80505;
 }
 
 /* Content paragraph */
@@ -16737,7 +16737,7 @@ button:focus {
 /* Service Cards */
 .service-cards {
   border-radius: 12px;
-  border: 1px solid #e50914;
+  border: 1px solid #b80505;
   padding: 20px 50px;
   text-align: center;
   min-width: 200px;
