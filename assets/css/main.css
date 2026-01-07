@@ -17078,7 +17078,7 @@ li i {
 
 .content-box h5 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   text-transform: capitalize;
 }
 
@@ -17332,10 +17332,10 @@ li i {
 .value-card h5 {
   letter-spacing: -.01em;
   font-family: Outfit, sans-serif;
-  font-size: 24px;
+  font-size: 17px;
   font-weight: 600;
   line-height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   color: #2e2d2d;
 }
 
