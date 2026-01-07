@@ -386,7 +386,7 @@ h3 {
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 22px;
 }
 
 @media (max-width: 767px) {
@@ -1978,7 +1978,7 @@ button:focus {
 .section-title.text-center {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 985px;
 }
 
 .section-title.text-center .sub-title {
@@ -11477,7 +11477,7 @@ button:focus {
   display: -moz-flex;
   display: flex;
   gap: 30px;
-  padding: 60px;
+  padding: 60px 30px;
   background-color: #ffffff;
   box-shadow: 0 -14px 12px -7px #0000000d;
   border-radius: var(--border-radius-three);
@@ -11656,7 +11656,7 @@ button:focus {
 .offer-section-2 .offer-wapper .offer-item .offer-content .offer-title {
   color: #0E131A;
   margin-bottom: 15px;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1.4em;
   text-transform: capitalize;
 }
@@ -11699,7 +11699,7 @@ button:focus {
 
 .offer-section-2 .more-offer-content {
   width: 100%;
-  max-width: 760px;
+  max-width: 951px;
   text-align: center;
   margin: 0 auto;
 }
@@ -16054,7 +16054,7 @@ button:focus {
 .hero-content {
   margin-top: -40px;
   text-align: center;
-  max-width: 665px;
+  max-width: 760px;
   z-index: 2;
 }
 
@@ -16530,7 +16530,6 @@ button:focus {
 /* LEFT STICKY */
 .process-left {
   top: 140px;
-  padding-left: 124px;
 }
 
 @media(max-width:768px) {
@@ -16735,7 +16734,7 @@ button:focus {
 .service-cards {
   border-radius: 12px;
   border: 1px solid #b80505;
-  padding: 20px 50px;
+  padding: 20px 42px;
   text-align: center;
   min-width: 200px;
   transition: all 0.4s ease;
@@ -16783,6 +16782,11 @@ button:focus {
   font-size: 16px;
   font-weight: 500;
   background-color: #9b050d;
+}
+
+.solution-button {
+  display: flex;
+  justify-content: right !important;
 }
 
 @media(max-width:768px) {
@@ -16840,7 +16844,7 @@ button:focus {
 .why-card h5 {
   letter-spacing: -.01em;
   font-family: Outfit, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 32px;
   margin-bottom: 20px;
@@ -16848,7 +16852,7 @@ button:focus {
 }
 
 .why-card p {
-  font-size: 17px;
+  font-size: 16px;
   color: #686666;
   margin-bottom: 0;
 }
@@ -16914,6 +16918,19 @@ button:focus {
 .result-list .fa-regular {
   margin-right: 10px;
 }
+
+li {
+  display: flex;
+  align-items: flex-start;
+  /* aligns icon to top */
+  gap: 5px;
+}
+
+li i {
+  margin-top: 3px;
+  /* optional fine-tuning */
+}
+
 
 /* Badges */
 .badge {
@@ -17472,4 +17489,8 @@ button:focus {
   .section-title .title {
     font-size: 28px;
   }
+}
+
+.hero-content .second-title {
+  font-size: 3.3rem !important;
 }
