@@ -16551,7 +16551,6 @@ button:focus {
   position: absolute;
   width: 100%;
   height: 30%;
-  top: -30%;
   background: linear-gradient(to bottom,
       transparent,
       #ff0033,
@@ -16561,7 +16560,7 @@ button:focus {
 
 @keyframes flowDown {
   0% {
-    top: -30%;
+    top: -8%;
   }
 
   100% {
@@ -17570,7 +17569,13 @@ li i {
 .icon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-  gap: 24px;
+  gap: 23px;
+}
+
+.icon-grid img {
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
 }
 
 /* Center pane */
@@ -17582,7 +17587,7 @@ li i {
 /* Tech cards */
 .tech-box {
   position: relative;
-  border-radius: 18px;
+  border-radius: 12px;
   padding: 20px 14px;
   text-align: center;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(255, 255, 255, 0.6);
@@ -17639,8 +17644,7 @@ li i {
 
 /* Icon animation */
 .tech-box i {
-  font-size: 44px;
-  margin-bottom: 12px;
+  font-size: 32px;
   display: block;
   transition: transform 0.4s ease, filter 0.4s ease;
 }
@@ -17789,4 +17793,35 @@ li i {
   background: linear-gradient(135deg, #7c3aed, #9333ea);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.icon-react {
+  color: #61DAFB;
+}
+
+.icon-node {
+  color: #339933;
+}
+
+.icon-next {
+  color: #000000;
+}
+
+.icon-astro {
+  color: #FF5D01;
+}
+
+/* Optional: icon sizing */
+.tech-box i {
+  font-size: 28px;
+}
+
+/* Optional: hover effect */
+.tech-box:hover i {
+  transform: scale(1.15);
+  transition: 0.3s ease;
+}
+
+.icon-django {
+  color: #0d4731;
 }
