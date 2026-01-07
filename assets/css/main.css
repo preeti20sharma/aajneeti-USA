@@ -16391,7 +16391,7 @@ button:focus {
 }
 
 .content-width {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .card-buttons {
@@ -16583,23 +16583,27 @@ button:focus {
 
 /* Dot positions */
 .process-dot:nth-child(2) {
-  top: 100px;
+  top: 60px;
 }
 
 .process-dot:nth-child(3) {
-  top: 300px;
+  top: 320px;
 }
 
 .process-dot:nth-child(4) {
-  top: 500px;
+  top: 560px;
 }
 
 .process-dot:nth-child(5) {
-  top: 700px;
+  top: 800px;
 }
 
 .process-dot:nth-child(6) {
-  top: 900px;
+  top: 1064px;
+}
+
+.process-dot:nth-child(7) {
+  top: 1300px;
 }
 
 /* ACTIVE DOT */
