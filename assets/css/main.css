@@ -4683,7 +4683,7 @@ button:focus {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .sticky {
     position: sticky !important;
     top: 50px !important;
@@ -16092,6 +16092,14 @@ button:focus {
   display: flex;
   justify-content: center;
   gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .hero-buttons {
+    margin-top: 55px;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .btn-outline {
