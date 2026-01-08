@@ -2055,7 +2055,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .section-title h2 {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -16408,6 +16408,24 @@ button:focus {
   margin-bottom: 20px !important;
 }
 
+.text-position {
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .text-position {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .single-card h3 {
+    font-size: 24px;
+    line-height: 30px;
+
+  }
+
+}
+
 /* single card end */
 
 
@@ -16688,6 +16706,7 @@ button:focus {
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 14px;
+  padding: 0 18px;
   position: relative;
   overflow: hidden;
 }
@@ -16725,6 +16744,8 @@ button:focus {
   color: #b80505;
 }
 
+.solution-content {}
+
 /* Content paragraph */
 .solution-content p {
   color: grey;
@@ -16752,6 +16773,12 @@ button:focus {
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 576px) {
+  .service-cards {
+    padding: 20px 100px;
+  }
 }
 
 /* Card Hover Glow */
@@ -16796,10 +16823,13 @@ button:focus {
   background-color: #9b050d;
 }
 
-.solution-button {
-  display: flex;
-  justify-content: right !important;
+@media (min-width: 991px) {
+  .solution-button {
+    display: flex;
+    justify-content: right !important;
+  }
 }
+
 
 @media(max-width:768px) {
   .solution-button .btn-outline {
@@ -16811,7 +16841,8 @@ button:focus {
 /* Responsive */
 @media (max-width: 991px) {
   .solution-section h3 {
-    font-size: 32px;
+    font-size: 21px;
+    letter-spacing: 0.9px;
   }
 
   .cards-row {
@@ -16909,6 +16940,15 @@ button:focus {
   line-height: 56px;
 }
 
+
+
+@media (max-width: 991px) {
+  .proven-heading {
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+
 .result-card h5 {
   font-size: 16px;
   line-height: 1.5;
@@ -16949,6 +16989,13 @@ li i {
   padding: 11px 20px;
   font-size: 16px;
   border-radius: 50px;
+}
+
+@media (max-width: 576px) {
+  .badge {
+    font-size: 14px;
+    padding: 15px 19px;
+  }
 }
 
 .badge-green {
@@ -17579,6 +17626,13 @@ li i {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
   gap: 23px;
+}
+
+@media (max-width: 576px) {
+  .icon-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
 }
 
 .icon-grid img {
