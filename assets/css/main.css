@@ -16044,27 +16044,18 @@ button:focus {
 
 /*# sourceMappingURL=main.css.map */
 .hero {
-  min-height: 100vh;
-  background:
+  min-height: 100%;
+  background-color: #fefcf9;
+  background-image:
     /* top soft light */
     linear-gradient(180deg,
-      #faf8fc,
-      #faf8fc 50%,
-      #faf8fc),
-
-    /* side softness */
-    linear-gradient(90deg,
-      #ede8f3,
-      #fff0 50%,
-      #faf8fc),
-
-    /* center pastel tint */
-    linear-gradient(120deg,
       #fff0,
-      #bafffe 40%,
-      #f5afbc 50%,
-      #ccfffe 60%,
+      #ffebe2 30%,
+      #faf5ff 50%,
+      #ece3f5 60%,
       #fff0);
+
+
 
   display: flex;
   /* align-items: center; */
@@ -18085,6 +18076,15 @@ li i {
   position: relative;
 }
 
+@media(max-width:768px) {
+  .cities-slider-section {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    z-index: 0;
+    position: relative;
+  }
+}
+
 .cities-slider {
   width: 100%;
   overflow: hidden;
@@ -18097,7 +18097,16 @@ li i {
   border: 1px solid #ebe9e9;
   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
+}
 
+@media(max-width:768px) {
+  .cities-slider {
+    border: none;
+  }
+
+  .cities-track span {
+    font-size: 18px;
+  }
 }
 
 .cities-track {
