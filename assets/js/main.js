@@ -453,21 +453,21 @@ JS TABLE OF CONTENTS
 				const t = easeOut(progress);
 
 				cards.lf.style.transform =
-					`translateY(${lerp(-520, 0, t)}px) rotate(${lerp(0, -20, t)}deg)`;
+					`translateY(${lerp(-540, 0, t)}px) rotate(${lerp(0, -20, t)}deg)`;
 				cards.lm.style.transform =
-					`translateY(${lerp(-380, 0, t)}px) rotate(${lerp(0, -14, t)}deg)`;
+					`translateY(${lerp(-370, 0, t)}px) rotate(${lerp(0, -14, t)}deg)`;
 				cards.ln.style.transform =
-					`translateY(${lerp(-260, 0, t)}px) rotate(${lerp(0, -8, t)}deg)`;
+					`translateY(${lerp(-280, 0, t)}px) rotate(${lerp(0, -8, t)}deg)`;
 
 				cards.c.style.transform =
-					`translateY(${lerp(-200, 0, t)}px)`;
+					`translateY(${lerp(-210, 0, t)}px)`;
 
 				cards.rn.style.transform =
-					`translateY(${lerp(-260, 0, t)}px) rotate(${lerp(0, 8, t)}deg)`;
+					`translateY(${lerp(-280, 0, t)}px) rotate(${lerp(0, 8, t)}deg)`;
 				cards.rm.style.transform =
-					`translateY(${lerp(-380, 0, t)}px) rotate(${lerp(0, 14, t)}deg)`;
+					`translateY(${lerp(-370, 0, t)}px) rotate(${lerp(0, 14, t)}deg)`;
 				cards.rf.style.transform =
-					`translateY(${lerp(-520, 0, t)}px) rotate(${lerp(0, 20, t)}deg)`;
+					`translateY(${lerp(-540, 0, t)}px) rotate(${lerp(0, 20, t)}deg)`;
 			}
 
 			document.addEventListener("scroll", () => {

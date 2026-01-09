@@ -1983,7 +1983,7 @@ button:focus {
 
 .sub-content {
   display: inline-block;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -5200,7 +5200,7 @@ button:focus {
   .header {
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 99;
   }
 
   .header .header-lower {
@@ -5434,7 +5434,7 @@ button:focus {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 99;
+  z-index: 9999;
   position: fixed;
   background-color: var(--primary-color);
   border-bottom: none;
@@ -17449,7 +17449,19 @@ li i {
 }
 
 .about-height {
-  min-height: 80vh !important;
+  min-height: 90vh !important;
+}
+
+.heros-color {
+  background-color: #fefcf9;
+  background-image:
+    /* top soft light */
+    linear-gradient(120deg,
+      #fff0,
+      #ffebe2 30%,
+      #fff9f5 50%,
+      #f5f0fa 60%,
+      #fff0) !important;
 }
 
 .about-width {
@@ -17917,10 +17929,17 @@ li i {
 /* home section start */
 
 .people-section {
-  height: 30vh;
+  height: 50vh !important;
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+@media(max-width:768px) {
+  .people-section {
+    height: auto !important;
+    padding: 40px 0;
+  }
 }
 
 .people-cards {
@@ -17942,38 +17961,38 @@ li i {
 
 /* FINAL ARC POSITIONS */
 .left.far {
-  left: 8%;
-  top: 80px;
-}
-
-.left.mid {
-  left: 20%;
+  left: 6%;
   top: 40px;
 }
 
+.left.mid {
+  left: 18%;
+  top: 12px;
+}
+
 .left.near {
-  left: 32%;
-  top: 20px;
+  left: 30%;
+  top: -25px;
 }
 
 .center {
   left: 44%;
-  top: 0;
+  top: -50px;
 }
 
 .right.near {
-  right: 32%;
-  top: 20px;
+  right: 30%;
+  top: -25px;
 }
 
 .right.mid {
-  right: 20%;
-  top: 40px;
+  right: 18%;
+  top: 12px;
 }
 
 .right.far {
-  right: 8%;
-  top: 80px;
+  right: 6%;
+  top: 40px;
 }
 
 
@@ -18071,9 +18090,8 @@ li i {
   border-radius: 12px;
   margin-left: 15px !important;
   margin-right: 15px !important;
-  margin-top: 20px;
-  z-index: 9999;
-  position: relative;
+  margin-top: 70px;
+  z-index: 999;
 }
 
 @media(max-width:768px) {
@@ -18088,7 +18106,7 @@ li i {
 .cities-slider {
   width: 100%;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 25px 0;
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(12px);
