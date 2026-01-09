@@ -17134,10 +17134,6 @@ li i {
   }
 }
 
-.about-section {
-  background: #f8f9fa;
-}
-
 /* LEFT IMAGE */
 .left-image-box img {
   height: 480px;
@@ -17450,9 +17446,6 @@ li i {
 
 .about-height {
   min-height: 90vh !important;
-}
-
-.heros-color {
   background-color: #fefcf9;
   background-image:
     /* top soft light */
