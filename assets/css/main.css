@@ -16067,7 +16067,7 @@ button:focus {
       #fff0);
 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   position: relative;
   overflow: hidden;
@@ -16082,7 +16082,7 @@ button:focus {
 
 /* CENTER CONTENT */
 .hero-content {
-  margin-top: -80px;
+  /* margin-top: -80px; */
   text-align: center;
   max-width: 760px;
   z-index: 2;
