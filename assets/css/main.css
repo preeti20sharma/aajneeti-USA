@@ -17445,7 +17445,7 @@ li i {
 }
 
 .about-height {
-  min-height: 90vh !important;
+  min-height: 50vh !important;
   background-color: #fefcf9;
   background-image:
     /* top soft light */
