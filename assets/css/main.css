@@ -1981,6 +1981,19 @@ button:focus {
   max-width: 985px;
 }
 
+.sub-content {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #6d6e6e;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+
+
 .section-title.text-center .sub-title {
   margin: 0 auto;
 }
@@ -16069,7 +16082,7 @@ button:focus {
 
 /* CENTER CONTENT */
 .hero-content {
-  margin-top: -40px;
+  margin-top: -80px;
   text-align: center;
   max-width: 760px;
   z-index: 2;
@@ -17908,4 +17921,216 @@ li i {
 
 .icon-django {
   color: #0d4731;
+}
+
+/* home section start */
+
+.people-section {
+  height: 30vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.people-cards {
+  position: sticky;
+  top: 18%;
+  width: 100%;
+  height: 420px;
+}
+
+.people-card {
+  position: absolute;
+  width: 190px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .15);
+  will-change: transform;
+}
+
+/* FINAL ARC POSITIONS */
+.left.far {
+  left: 8%;
+  top: 80px;
+}
+
+.left.mid {
+  left: 20%;
+  top: 40px;
+}
+
+.left.near {
+  left: 32%;
+  top: 20px;
+}
+
+.center {
+  left: 44%;
+  top: 0;
+}
+
+.right.near {
+  right: 32%;
+  top: 20px;
+}
+
+.right.mid {
+  right: 20%;
+  top: 40px;
+}
+
+.right.far {
+  right: 8%;
+  top: 80px;
+}
+
+
+
+/* ===============================
+   MOBILE (≤768px)
+================================ */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100% !important;
+  }
+
+  .hero-content {
+    margin-top: 0px !important;
+  }
+
+  /* hide extra cards */
+  .people-card.left.far,
+  .people-card.right.far {
+    display: none !important;
+  }
+
+  .people-cards {
+    position: relative !important;
+    top: auto !important;
+    height: 230px;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .people-card {
+    width: 110px;
+    height: 155px;
+    transform: none !important;
+  }
+
+  /* ✅ REAL CURVE (5 cards only) */
+
+  .left.mid {
+    left: -30px;
+    top: 60px;
+    transform: rotate(-15deg) scale(0.9) !important;
+    z-index: 1;
+  }
+
+  .left.near {
+    left: 36px;
+    top: 38px;
+    transform: rotate(-16deg) scale(0.95) !important;
+    z-index: 2;
+  }
+
+  .center {
+    left: 50%;
+    top: 34px;
+    transform: translateX(-50%) scale(1) !important;
+    z-index: 5;
+  }
+
+  .right.near {
+    right: 36px;
+    top: 38px;
+    transform: rotate(16deg) scale(0.95) !important;
+    z-index: 2;
+  }
+
+  .right.mid {
+    right: -30px;
+    top: 60px;
+    transform: rotate(15deg) scale(0.9) !important;
+    z-index: 1;
+  }
+}
+
+
+/* ===============================
+   SMALL MOBILE (≤480px)
+================================ */
+
+@media (max-width: 480px) {
+
+  .people-cards {
+    max-width: 300px;
+    height: 210px;
+  }
+
+  .people-card {
+    width: 100px;
+    height: 140px;
+  }
+}
+
+.cities-slider-section {
+  border-radius: 12px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-top: 20px;
+  z-index: 9999;
+  position: relative;
+}
+
+.cities-slider {
+  width: 100%;
+  overflow: hidden;
+  padding: 40px 0;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 14px;
+  border: 1px solid #ebe9e9;
+  transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+
+}
+
+.cities-track {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: max-content;
+  animation: scrollCities 25s linear infinite;
+}
+
+.cities-track span {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  color: #7d8080;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* hover effect */
+.cities-track span:hover {
+  color: #6b7280;
+  transform: scale(1.05);
+}
+
+@keyframes scrollCities {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }

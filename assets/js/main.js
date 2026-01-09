@@ -423,6 +423,76 @@ JS TABLE OF CONTENTS
 		});
 	});
 
+	// home page design section background images
+
+	if (window.innerWidth >= 980) {
+		const section = document.querySelector(".people-section");
+		if (section) {
+			const cards = {
+				lf: document.querySelector(".left.far"),
+				lm: document.querySelector(".left.mid"),
+				ln: document.querySelector(".left.near"),
+				c: document.querySelector(".center"),
+				rn: document.querySelector(".right.near"),
+				rm: document.querySelector(".right.mid"),
+				rf: document.querySelector(".right.far"),
+			};
+
+			let ticking = false;
+
+			const easeOut = t => 1 - Math.pow(1 - t, 3);
+			const lerp = (a, b, t) => a + (b - a) * t;
+
+			function animate() {
+				const rect = section.getBoundingClientRect();
+				const start = window.innerHeight;
+				const end = -section.offsetHeight / 2;
+
+				let progress = (start - rect.top) / (start - end);
+				progress = Math.min(Math.max(progress, 0), 1);
+				const t = easeOut(progress);
+
+				cards.lf.style.transform =
+					`translateY(${lerp(-520, 0, t)}px) rotate(${lerp(0, -20, t)}deg)`;
+				cards.lm.style.transform =
+					`translateY(${lerp(-380, 0, t)}px) rotate(${lerp(0, -14, t)}deg)`;
+				cards.ln.style.transform =
+					`translateY(${lerp(-260, 0, t)}px) rotate(${lerp(0, -8, t)}deg)`;
+
+				cards.c.style.transform =
+					`translateY(${lerp(-200, 0, t)}px)`;
+
+				cards.rn.style.transform =
+					`translateY(${lerp(-260, 0, t)}px) rotate(${lerp(0, 8, t)}deg)`;
+				cards.rm.style.transform =
+					`translateY(${lerp(-380, 0, t)}px) rotate(${lerp(0, 14, t)}deg)`;
+				cards.rf.style.transform =
+					`translateY(${lerp(-520, 0, t)}px) rotate(${lerp(0, 20, t)}deg)`;
+			}
+
+			document.addEventListener("scroll", () => {
+				if (!ticking) {
+					requestAnimationFrame(() => {
+						animate();
+						ticking = false;
+					});
+					ticking = true;
+				}
+			});
+
+			window.addEventListener("load", animate);
+		}
+	}
+
+
+	if (window.innerWidth <= 768) {
+		// MOBILE: JS animation completely OFF
+		document.querySelectorAll('.people-card').forEach(card => {
+			card.style.transform = 'none';
+		});
+	}
+
+
 	// ------------------------ 22. preloader 
 	function preloader() {
 		$(window).on("load", function () {
