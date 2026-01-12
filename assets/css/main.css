@@ -18315,3 +18315,12 @@ li i {
   font-size: 48px;
   font-weight: 700;
 }
+
+.b2b-lead-for {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+  border-radius: 20px;
+  background-image: linear-gradient(225deg, #ebfdfd, #f8f4fa 50%, #fcecef);
+  position: relative;
+  overflow: hidden;
+}
