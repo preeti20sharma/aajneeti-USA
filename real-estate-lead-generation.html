@@ -246,7 +246,11 @@
                                                                 </a></li>
                                                         </ul>
                                                     </li>
-
+                                                    <li>
+                                                        <a
+                                                            href="blog.html">Blogs
+                                                        </a>
+                                                    </li>
                                                     <li>
                                                         <a
                                                             href="contact.html">Contact
@@ -371,8 +375,8 @@
                                                 <aside class="toc">
                                                     <div class="toc-header">
                                                         Table of Contents
-                                                        <span
-                                                            class="arrow">⌄</span>
+                                                        <i
+                                                            class="fa-solid fa-chevron-down"></i>
                                                     </div>
 
                                                     <ul
@@ -1335,37 +1339,5 @@
         <script src="assets/js/jquery.syotimer.min.js"></script>
         <!-- main Js -->
         <script src="assets/js/main.js"></script>
-        <script>
-  // Toggle dropdown
-  const header = document.querySelector(".toc-header");
-  const list = document.querySelector(".toc-list");
-
-  header.addEventListener("click", () => {
-    list.classList.toggle("hide");
-  });
-
-  // Active link on scroll
-//   const sections = document.querySelectorAll("section");
-//   const links = document.querySelectorAll(".toc-list a");
-
-  window.addEventListener("scroll", () => {
-    let current = "";
-
-    sections.forEach(section => {
-      const sectionTop = section.offsetTop - 150;
-      if (scrollY >= sectionTop) {
-        current = section.getAttribute("id");
-      }
-    });
-
-    links.forEach(link => {
-      link.classList.remove("active");
-      if (link.getAttribute("href") === "#" + current) {
-        link.classList.add("active");
-      }
-    });
-  });
-</script>
-
     </body>
 </html>

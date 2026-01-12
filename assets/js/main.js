@@ -493,6 +493,37 @@ JS TABLE OF CONTENTS
 	}
 
 
+	// Toggle dropdown
+	const header = document.querySelector(".toc-header");
+	const list = document.querySelector(".toc-list");
+
+	list.classList.add("hide");
+
+	header.addEventListener("click", () => {
+		list.classList.toggle("hide");
+	});
+
+	window.addEventListener("scroll", () => {
+		let current = "";
+
+		sections.forEach(section => {
+			const sectionTop = section.offsetTop - 150;
+			if (scrollY >= sectionTop) {
+				current = section.getAttribute("id");
+			}
+		});
+
+		links.forEach(link => {
+			link.classList.remove("active");
+			if (link.getAttribute("href") === "#" + current) {
+				link.classList.add("active");
+			}
+		});
+	});
+
+
+
+
 	// ------------------------ 22. preloader 
 	function preloader() {
 		$(window).on("load", function () {
