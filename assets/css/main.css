@@ -17464,10 +17464,20 @@ li i {
 .toc-layout {
   display: flex;
   align-items: flex-start;
-  /* VERY IMPORTANT */
   gap: 40px;
   margin: auto;
   padding: 40px 0;
+}
+
+@media(max-width:768px) {
+  .toc-layout {
+    display: inline;
+  }
+
+  .toc {
+    width: auto !important;
+    margin-bottom: 20px;
+  }
 }
 
 /* LEFT TOC */
