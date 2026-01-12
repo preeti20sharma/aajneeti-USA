@@ -10767,6 +10767,8 @@ button:focus {
 
 .services-section-1 .services-item .services-image a figure img {
   width: 100%;
+
+
   object-fit: cover;
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
@@ -11006,6 +11008,7 @@ button:focus {
 
 .services-section-2 .services-item .services-image a figure img {
   width: 100%;
+  height: 250px !important;
   object-fit: cover;
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
@@ -11036,7 +11039,7 @@ button:focus {
 
 .services-section-2 .services-item .services-content .services-content-text .services-title {
   color: var(--white-color);
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.4em;
   margin-bottom: 15px;
   text-transform: capitalize;
