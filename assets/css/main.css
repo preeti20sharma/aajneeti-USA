@@ -16050,17 +16050,6 @@ button:focus {
 .hero {
   min-height: 100%;
   background-color: #fefcf9;
-  background-image:
-    /* top soft light */
-    linear-gradient(180deg,
-      #fff0,
-      #ffebe2 30%,
-      #faf5ff 50%,
-      #ece3f5 60%,
-      #fff0);
-
-
-
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -18038,6 +18027,7 @@ li i {
 /* home section start */
 
 .people-section {
+  max-width: 1500px;
   height: 50vh !important;
   position: relative;
   display: flex;
@@ -18331,4 +18321,15 @@ li i {
   gap: 20px;
   font-weight: 400;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-main {
+  background-image:
+    /* top soft light */
+    linear-gradient(180deg,
+      #fff0,
+      #ffebe2 30%,
+      #faf5ff 50%,
+      #ece3f5 60%,
+      #fff0);
 }
