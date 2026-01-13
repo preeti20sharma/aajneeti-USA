@@ -11188,6 +11188,7 @@ button:focus {
 
 .service-single-section .service-single-post .service-single-media figure img {
   width: 100%;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -18284,7 +18285,7 @@ li i {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 
 
@@ -18323,4 +18324,11 @@ li i {
   background-image: linear-gradient(225deg, #ebfdfd, #f8f4fa 50%, #fcecef);
   position: relative;
   overflow: hidden;
+}
+
+.time-content {
+  color: rgb(143, 5, 5);
+  gap: 20px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
