@@ -18533,3 +18533,21 @@ li i {
 .privacy-policy h4 {
   font-weight: 700;
 }
+
+.cities-track .img-width {
+  width: 130px !important;
+}
+
+/* Black & White Logo effect */
+.cities-slider-section .cities-track img {
+  filter: grayscale(100%);
+  opacity: 0.55;
+  transition: all 0.3s ease;
+}
+
+/* Hover pe normal + highlight */
+.cities-slider-section .cities-track img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
