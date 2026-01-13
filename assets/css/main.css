@@ -18354,6 +18354,12 @@ li i {
   gap: 22px;
 }
 
+@media(max-width:768px) {
+  .mk-market-wrapper {
+    gap: 0px;
+  }
+}
+
 /* ===== Market Card ===== */
 .mk-market-card {
   display: flex;
@@ -18361,6 +18367,12 @@ li i {
   gap: 80px;
   padding: 22px 22px;
   transition: 0.3s ease;
+}
+
+@media(max-width:768px) {
+  .mk-market-card {
+    gap: 20px;
+  }
 }
 
 
