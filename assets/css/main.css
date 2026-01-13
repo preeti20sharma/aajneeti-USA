@@ -18525,3 +18525,11 @@ li i {
 .mk-pill:hover::after {
   opacity: 1;
 }
+
+.terms-and-conditions h4 {
+  font-weight: 700;
+}
+
+.privacy-policy h4 {
+  font-weight: 700;
+}
