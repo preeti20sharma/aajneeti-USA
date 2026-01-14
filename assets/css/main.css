@@ -18126,6 +18126,7 @@ li i {
   }
 
   .people-card {
+    position: absolute !important;
     width: 110px;
     height: 155px;
     transform: none !important;
@@ -18177,13 +18178,15 @@ li i {
 @media (max-width: 480px) {
 
   .people-cards {
-    max-width: 300px;
+    max-width: 234px;
     height: 210px;
   }
 
   .people-card {
-    width: 100px;
+    width: 80px;
     height: 140px;
+    border-radius: 10px;
+
   }
 }
 
