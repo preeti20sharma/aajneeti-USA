@@ -1998,10 +1998,10 @@ button:focus {
   margin: 0 auto;
 }
 
-.section-title-white .sub-title {
-  /* background-color: rgba(255, 255, 255, 0.1) !important; */
-  /* color: var(--white-color) !important; */
-}
+/* .section-title-white .sub-title {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: var(--white-color) !important;
+} */
 
 /* 
 .section-title-white h2 {
@@ -16762,7 +16762,6 @@ button:focus {
   color: #b80505;
 }
 
-.solution-content {}
 
 /* Content paragraph */
 .solution-content p {
@@ -17468,7 +17467,7 @@ li i {
     margin-bottom: 20px;
     position: static !important;
     top: auto;
-    width: auto;
+    width: auto !important;
   }
 }
 
@@ -17973,13 +17972,10 @@ li i {
   -webkit-text-fill-color: transparent;
 }
 
-/* Twilio */
 .icon-twilio {
   color: #f22f46;
-  /* official Twilio red */
 }
 
-/* CallRail */
 .icon-callrail {
   background: linear-gradient(135deg, #2563eb, #0ea5e9);
   -webkit-background-clip: text;
@@ -18009,12 +18005,10 @@ li i {
   color: #FF5D01;
 }
 
-/* Optional: icon sizing */
 .tech-box i {
   font-size: 28px;
 }
 
-/* Optional: hover effect */
 .tech-box:hover i {
   transform: scale(1.15);
   transition: 0.3s ease;
@@ -18129,7 +18123,7 @@ li i {
     transform: none !important;
   }
 
-  /* ✅ REAL CURVE (5 cards only) */
+  /*  REAL CURVE (5 cards only) */
 
   .left.mid {
     left: -30px;
@@ -18545,7 +18539,6 @@ li i {
   transition: all 0.3s ease;
 }
 
-/* Hover pe normal + highlight */
 .cities-slider-section .cities-track img:hover {
   filter: grayscale(0%);
   opacity: 1;
