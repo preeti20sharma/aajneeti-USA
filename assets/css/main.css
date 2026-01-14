@@ -18284,6 +18284,7 @@ li i {
 @media(max-width:992px) {
   .blog-hero {
     min-height: 50vh;
+    padding: 40px 0px !important;
   }
 }
 
@@ -18302,6 +18303,12 @@ li i {
   background-image: linear-gradient(225deg, #ccfffe, #f3ecf7 50%, #fce7eb);
   position: relative;
   overflow: hidden;
+}
+
+@media(max-width:768px) {
+  .blog-section {
+    padding: 40px 5px;
+  }
 }
 
 .blog-detail-heading {
