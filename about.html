@@ -56,10 +56,12 @@
                 <div class="offcanvas-header">
                     <!-- offcanvas logo start -->
                     <div class="offcanvas-logo">
-                        <figure>
-                            <img src="assets/images/logo/acl-logo.png"
-                                alt="offcanvas logo" width="180">
-                        </figure>
+                        <a href="index.html">
+                            <figure>
+                                <img src="assets/images/logo/acl-logo.png"
+                                    alt="offcanvas logo" width="180">
+                            </figure>
+                        </a>
                     </div>
                     <!-- offcanvas logo emd -->
                     <!-- offcanvas close start -->
@@ -1002,13 +1004,6 @@
                                                     </li>
                                                     <li>
                                                         <a
-                                                            href="real-estate-lead-generation.html"><i
-                                                                class="fa-solid fa-chevron-right"></i>
-                                                            Service Details
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
                                                             href="contact.html"><i
                                                                 class="fa-solid fa-chevron-right"></i>
                                                             Contact</a>
@@ -1031,9 +1026,9 @@
                                                 <ul class="link">
                                                     <li>
                                                         <a
-                                                            href="about.html"><i
+                                                            href="blog.html"><i
                                                                 class="fa-solid fa-chevron-right"></i>
-                                                            Who We Are</a>
+                                                            Blogs</a>
                                                     </li>
                                                     <li>
                                                         <a
@@ -1048,13 +1043,6 @@
                                                                 class="fa-solid fa-chevron-right"></i>
                                                             B2B Lead
                                                             Generation</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a
-                                                            href="services.html"><i
-                                                                class="fa-solid fa-chevron-right"></i>
-                                                            Services</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1173,18 +1161,5 @@
             <script src="assets/js/jquery.syotimer.min.js"></script>
             <!-- main Js -->
             <script src="assets/js/main.js"></script>
-            <script>
-                document.addEventListener("scroll", () => {
-                    const steps = document.querySelectorAll(".process-step");
-                    const dots = document.querySelectorAll(".process-dot");
-                    steps.forEach((step, index) => {
-                        const rect = step.getBoundingClientRect();
-                        if (rect.top < window.innerHeight * 0.65) {
-                            step.classList.add("active");
-                            dots[index].classList.add("active");
-                        }
-                    });
-                });
-                 </script>
         </body>
     </html>
