@@ -87,7 +87,7 @@ iframe {
   grid-column-gap: .75rem;
   grid-row-gap: .75rem;
   flex-flow: column;
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin-left: auto;
   margin-right: auto;
   display: flex;
